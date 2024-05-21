@@ -4,10 +4,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # t = 60 seconds
-# t = np.linspace(0, 60, 10000)   # Uncomment this line to see the graph for t = 60 seconds
+t = np.linspace(0, 60, 10000)   # Uncomment this line to see the graph for t = 60 seconds
 
 # 1 sinusoidal cycle
-t = np.linspace(0, 1, 10000)   # Uncomment this line to see the graph for 1 sinusoidal cycle
+# t = np.linspace(0, 1, 10000)   # Uncomment this line to see the graph for 1 sinusoidal cycle
 
 # x is equals to sin of a function of t that has a peak and a valley of 120 in the interval [0, 60]
 x = 0.03 * np.sin(2 * np.pi * t + 1/2*np.pi) + 0.03
